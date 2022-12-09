@@ -23,11 +23,9 @@ body{
     margin-left: 80px;
 }
 .card{
-    transition: width 1s;
-   
- 
+    transition: width 1s; 
 }
-.card  :hover{
+.card :hover{
     width: 300px;
     transition: 1.5s;
     color: yellow;
@@ -35,4 +33,26 @@ body{
 .span{
     font-size: 3rem;
     color: chartreuse;
+}
+.icon{
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+ 
+ }
+ .cardi i:hover{
+    padding: 10px;
+    border: 10px;
+    color: violet;
+
+}
+.cardi{
+    text-align: center;
+}
+.bg-image{
+    position: relative;
+    height:300px ; 
+}
+.text-bg{
+   margin: 50px;
 }
