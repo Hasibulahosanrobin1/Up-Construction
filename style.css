@@ -53,6 +53,31 @@ body{
     position: relative;
     height:300px ; 
 }
+.img-design {
+    transition: width 1s; 
+   
+   }
+.img-design :hover{
+       width: 400px;
+       transition: 0.5s;
+       position: absolute;      
+   }
 .text-bg{
    margin: 50px;
+   color: rgb(14, 14, 14);
+   text-align: center;
+}
+.section-counter{
+    background-image: url(img/over-lay.jpg);
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height:300px;   
+   
+}
+.section-counter h2{
+ display: inline-block;
+ margin-top: 50px;
+ color: rgba(14, 225, 14, 0.835);
 }
