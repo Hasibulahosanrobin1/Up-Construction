@@ -61,7 +61,7 @@ body{
        width: 400px;
        transition: 0.5s;
        position: absolute;      
-   }
+ }
 .text-bg{
    margin: 50px;
    color: rgb(14, 14, 14);
@@ -80,4 +80,30 @@ body{
  display: inline-block;
  margin-top: 50px;
  color: rgba(14, 225, 14, 0.835);
+}
+.felx-box{
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.box{
+    margin: 50px;
+}
+.bod{
+    color: rgb(193, 138, 165);
+}
+.bg-colors{
+    background-color: rgb(245, 245, 245);
+}
+.acc-img{
+    display: inline;
+    height: 400px;
+    width: 800px;
+}
+.accordion{
+    
+    height: 500px;
+    width: 700px;
 }
