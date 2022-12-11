@@ -103,7 +103,32 @@ body{
     width: 800px;
 }
 .accordion{
-    
     height: 500px;
     width: 700px;
+}
+.footer{
+    background-image: url(img/breadcrumbs-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    
+}
+.icons-design{
+   font-size: 20px;
+   color: rgb(17, 16, 16);
+   border: 1px solid white;
+   border-radius: 5px;
+   padding: 10px;
+   background-color: cyan;
+   margin: 5px;
+}
+.icons-design:hover{
+    padding: 10px;
+    border: 10px;
+    color:yellow;
+}
+.foter-desgin h3{
+    display: inline-block;
+    margin-top: 30px;
 }
