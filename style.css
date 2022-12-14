@@ -34,6 +34,12 @@ body{
     font-size: 3rem;
     color: chartreuse;
 }
+.spanii{
+    display: inline;
+    text-align: center;
+    font-size: 1.5rem;
+    color: chartreuse;
+}
 .icon{
     padding: 20px;
     text-align: center;
@@ -69,7 +75,6 @@ body{
 }
 .section-counter{
     background-image: url(img/over-lay.jpg);
-    opacity: 0.6;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
